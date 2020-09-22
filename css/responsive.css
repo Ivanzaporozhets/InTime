@@ -1,0 +1,96 @@
+@media (max-width: 1300px) {
+  body,
+  header,
+  nav.header-nav,
+  .main,
+  main,
+  .sidebar,
+  .main-content {
+    min-width: 320px;
+    width: 100%;
+    text-align: center;
+  }
+  .sidebar{
+    width: 50%;
+  }
+  header,
+  nav.header-nav,
+  .main,
+  .sidebar,
+  main,
+  .main-content {
+    padding: 0 10px;
+  }
+  img {
+    max-width: 843px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .sidebar img {
+    max-width: 380px;
+  }
+  form {
+    width: 50%;
+    min-width: 320px;
+    margin: auto;
+  }
+}
+@media (max-width: 830px) {
+    .sidebar{
+        width: 100%;
+      }
+  nav.header-nav {
+    display: none;
+  }
+  .main-content {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .sidebar-news h2 {
+    font-size: 26px;
+  }
+  main article h3 {
+    font-size: 22px;
+    line-height: 28px;
+    padding-bottom: 40px;
+  }
+  #menuToggle {
+    display: block;
+    width: 100%;
+  }
+  nav.navigation {
+    top: 100px;
+  }
+}
+@media (max-width: 420px) {
+  header ul a {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+  span.icon-phone:before{
+      font-size: 16px;
+      position: absolute;
+      top: 15px;
+  }
+}
+@media (max-width: 320px) {
+  body,
+  header,
+  nav.header-nav,
+  .main,
+  main,
+  .sidebar,
+  .main-content {
+    min-width: 280px;
+    width: 100%;
+  }
+  form {
+    right: 8px;
+    min-width: 280px;
+    
+  }
+}
